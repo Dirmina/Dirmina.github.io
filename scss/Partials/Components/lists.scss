@@ -1,0 +1,28 @@
+.list__project {
+    list-style: inside;
+    &--training {
+        list-style: none;
+        width: 50%;
+        margin: 0.5em;
+    }
+}
+
+.list__skills li {
+    list-style: none;
+    padding-top: 2em;
+}
+
+.list__softskills {
+    list-style:none;
+}
+
+.training__list {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact ul {
+    margin-top: 1em;
+}

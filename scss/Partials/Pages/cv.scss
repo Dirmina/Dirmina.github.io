@@ -1,0 +1,175 @@
+.body__cv {
+    @media screen and (min-width: 1200px) {
+    font-size: 1em;
+    }
+}
+.cv {
+    text-align: center;
+    display:flex;
+    margin: 0;
+
+    @media screen and (max-width: 1199.99px) {
+        display:block;
+    }
+}
+
+.main__section {
+    padding: 1em;
+}
+
+.aside__cv {
+    color: darken($colour__secondary, 7);
+    display:flex;
+    flex-direction: column;
+    padding: 0.5em;
+    background-color: $colour__quaternary;
+    @media screen and (min-width: 1200px) {
+        width: 33%;
+    }
+}
+
+.aside__cv ul li {
+    list-style:none;
+}
+.contact__mode {
+    padding: 1em;
+}
+.projets h2 {
+    text-align: center;
+}
+
+.projets {
+    text-align: left;
+}
+
+.projets__perso {
+    margin-bottom: 2em;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp__description {
+    text-align: left;
+    width: 67%;
+}
+
+.date__layout {
+    width: 33%;
+    margin: 0;
+}
+
+.layout__title--exp {
+    margin: 0.5em 0;
+}
+
+.layout__skills {
+    display: flex;
+    justify-content: space-around;
+}
+.button__project {
+    display:inline-block;
+    font-family: "ralewayBold", sans-serif;
+    color: inherit;
+    padding: 0.5em;
+    width: 110%;
+    border: 1px #000 solid;
+}
+.ohMyFood__project {   
+    color: #fdcb46;
+    background-color: #299ec2;
+    &:hover {
+        background-color: darken(#299ec2, 2);
+    }
+    &:active {
+        background-color: darken(#299ec2, 5);
+    }
+}
+
+.laChouetteAgence__project {
+    background-color: #f1c99c; 
+    &:hover {
+        background-color: darken(#f1c99c, 2);
+    }
+    &:active {
+        background-color: darken(#f1c99c, 5);
+    }  
+}
+
+.orinoco__project {
+    background-color: #f1d3eb;
+    &:hover {
+        background-color: darken(#f1d3eb, 2);
+    }
+    &:active {
+        background-color: darken(#f1d3eb, 5);
+    }  
+}
+
+.soPekocko__project {
+    border: 1px #000 solid;
+    &:hover {
+        background-color: darken($colour__secondary, 2);
+    }
+    &:active {
+        background-color: darken($colour__secondary, 5);
+    }  
+}
+
+.groupomania__project {
+    background-color: #091F43;
+    color: #e9e5e5;
+    &:hover {
+        background-color: lighten(#091F43, 5);
+    }
+    &:active {
+        background-color: lighten(#091F43, 10);
+    }  
+}
+
+.about {
+    flex: 2;
+}
+
+.navigation__cv {
+    display: flex;
+    border-radius: 5px 5px;
+    border: 4px $colour__quaternary solid;
+    background-color: lighten($colour__tertiary, 5);;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.2em;
+    @media screen and (orientation: landscape) {
+        flex-wrap: nowrap;
+    }
+}
+
+.navigation__cv li {
+    list-style: none;
+    width: 40%;
+    @media screen and (orientation: portrait) {
+        border: 4px $colour__quaternary solid;
+        background-color: $colour__tertiary;
+        padding: 0.5em;
+        margin: 0.2em;
+    }
+ 
+}
+.navigation__cv a {
+    color: $colour__secondary;
+}
+
+.fa-star {
+    color: $colour__tertiary;
+    opacity: 0.5;
+}
+
+.checked {
+    opacity: 1;
+}
+
+.list__skills h3 {
+    margin: 0.5em;
+}

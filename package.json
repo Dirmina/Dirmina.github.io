@@ -1,0 +1,23 @@
+{
+  "name": "dirmina.github.io",
+  "version": "1.0.0",
+  "description": "Site de Julien Ducrocq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dirmina/dirmina.github.io.git"
+  },
+  "author": "Julien Ducrocq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dirmina/dirmina.github.io/issues"
+  },
+  "homepage": "https://github.com/Dirmina/dirmina.github.io#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

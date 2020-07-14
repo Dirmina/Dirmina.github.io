@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    height:100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: "ralewayregular", sans-serif;
+
+    background-color: $colour__secondary;
+    color: $colour__secondary;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+main {
+    color: $colour__tertiary;
+    margin: 0.2em 0.7em;
+}

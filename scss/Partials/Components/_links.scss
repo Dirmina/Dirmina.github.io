@@ -1,0 +1,25 @@
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    &--underline {
+        text-decoration: underline;
+    }
+}
+
+.license {
+    color: inherit;
+    font-family: "ralewaybold", sans-serif;
+}
+
+.aside__link {
+    color: inherit;
+}
+
+.aside__link:hover {
+    font-weight: bolder;
+}
+
+.aside__link:active {
+    color: #bbb;
+}
