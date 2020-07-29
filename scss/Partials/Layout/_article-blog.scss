@@ -1,0 +1,14 @@
+.article__blog {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-bottom: 1px $colour__tertiary solid;
+    display:flex;
+}
+
+.image__article img {
+    border: 1px $colour__tertiary solid;
+}
+
+.apercu {
+    padding-left: 0.5em;
+}
